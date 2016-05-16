@@ -1,0 +1,39 @@
+body{background: #EEE;}
+header p{ height: 40px; font-size: 20px;}
+section{width: 70%; margin-top: 150px;}
+input[type=text],[type=password]{height: 45px;}
+footer{display:inline-block; margin-top: 270px;}
+section img{
+	display:block!important;
+	-webkit-transition:-webkit-transform 1s ease-out;
+	-moz-transition:-moz-transform 1s ease-out;
+	-o-transition:-o-transform 1s ease-out;
+	-ms-transition:-ms-transform 1s ease-out;
+	transition:transform 1s ease-out;
+
+}
+section img:hover{
+	-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1)
+}
+section{margin: auto;}
+#sucursal{float: left; width: 305px;}
+#usuario{float: left; margin-top: 100px;}
+#manta{float: left; margin-top: 100px;}
+#precio1{width: 20%; float: left;}
+#precio2{width: 20%; float: left; margin-left: 20px;}
+#precio3{width: 20%; float: left; margin-left: 20px;}
+#precio4{width: 20%; float: left; margin-left: 20px;}
+#uti1{width: 30%; float: left;}
+#uti2{width: 30%; float: left; margin-left: 20px;}
+#uti3{width: 30%; float: left; margin-left: 20px;}
+#util1{width: 20%; float: left;}
+#util2{width: 20%; float: left; margin-left: 20px;}
+#util3{width: 20%; float: left; margin-left: 20px;}
+#util4{width: 20%; float: left; margin-left: 20px;}
+
+
+

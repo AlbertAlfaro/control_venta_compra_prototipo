@@ -1,0 +1,24 @@
+body{background: #EEE;}
+header p{ height: 40px; font-size: 20px;}
+section{width: 25%; margin-top: 150px;}
+input[type=text],[type=password]{height: 45px;}
+footer{display:inline-block; margin-top: 270px;}
+section img{
+	display:block!important;
+	-webkit-transition:-webkit-transform 1s ease-out;
+	-moz-transition:-moz-transform 1s ease-out;
+	-o-transition:-o-transform 1s ease-out;
+	-ms-transition:-ms-transform 1s ease-out;
+	transition:transform 1s ease-out;
+
+}
+section img:hover{
+	-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1)
+}
+
+#sucursal{float: left; width: 305;}
+#usuario{float: left; margin-top: 100px;}
