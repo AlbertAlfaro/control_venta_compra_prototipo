@@ -92,7 +92,7 @@ while($user_n= mysql_fetch_array($consulta)){
               ?>
               <label class="checkbox-inline">
               <?php if($sucu[$ii]==$idd[$i]){?>  
-              <input type="checkbox" id="inlineCheckbox<?php echo $i;?>" value="sucursal<?php echo $i;?>" name="sucursal<?php echo $i;?>" checked disabled="true"> <?php echo $nom;?> <a href="eliminar_sucursal.php?id=<?php echo $id ?>&id_su=<?php  echo $idd[$i]?>" class="glyphicon glyphicon-remove">Eliminar</a> 
+              <input type="checkbox" id="inlineCheckbox<?php echo $i;?>" value="sucursal<?php echo $i;?>" name="sucursal<?php echo $i;?>" checked disabled="true"> <?php echo $nom;?> <a href="eliminar_sucursal.php?id=<?php echo $id ?>&id_su=<?php  echo $idd[$i]?>&ti=S" class="glyphicon glyphicon-remove">Eliminar</a> 
               <?php $ii++;}else{?>
               <input type="checkbox" id="inlineCheckbox<?php echo $i;?>" value="sucursal<?php echo $i;?>" name="sucursal<?php echo $i;?>" > <?php echo $nom;?>
               <?php }?>
